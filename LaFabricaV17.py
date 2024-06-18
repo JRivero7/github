@@ -52,7 +52,7 @@ while CPCadena != "0":
                                         PrNum = PrCadena.replace('.', '1').isnumeric()
                                         while verificacion == False:
                                             while PrNum == False:
-                                                print("El precio debe ser un nueroi entre 10.00 y 999.99")
+                                                print("El precio debe ser un numero entre 10.00 y 999.99")
                                                 PrCadena = input()
                                                 PrNum=PrCadena.replace('.', '1').isnumeric()
                                             PrC = float(PrCadena)
